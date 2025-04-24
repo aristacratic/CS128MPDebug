@@ -13,7 +13,7 @@ public:
   void FlipHorizontal();
   void FlipVertical();
   void BrightenImage(int value);
-  void ToPpm(const std::string& fileName) const;
+  void ToPpm(const std::string& file_name) const;
 
 private:
   std::vector<std::vector<Color>> image_;
